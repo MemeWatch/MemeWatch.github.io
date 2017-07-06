@@ -11,6 +11,13 @@
 <style>
 main{margin-top:50px;}
 #formats{max-height:70vh; overflow:scroll; border-top:5px solid red; border-bottom:5px solid red;}
+@media only screen and (max-width: 450px) {
+    input {
+        width: 70%;
+    }
+	.headimg{background-size:cover;}
+	#art{max-width:100vw;}
+}
 </style>
 </head>
 
@@ -43,10 +50,19 @@ main{margin-top:50px;}
 <a href="../User.html"><div class="profile" style="background-image:url(person.jpg)"></div></a>
 <p id="profile">Guest User</p>
 </div>
-<center>
+<center id="art">
 <div class="articlebox" id="stickied"> <!--The id is the article type-->
 <div class="PAndN">
 <a href="*0.html" class="a1"><i class="fa fa-long-arrow-left"></i><span id="prev"> Previous</span></a> <a href="*2.html" class="a1"><i class="fa fa-long-arrow-right"></i><span id="next">Next </span></a>
+</div>
+<div class="social">
+<center style="margin:0; padding:0;">
+<b style="background-color:#79E052;">0 <i class="fa fa-thumbs-up" style="background-color:#79E052;"></i></b>
+<b style="background-color:#8ae2ea;">0 <i class="fa fa-eye" style="background-color:#8ae2ea;"></i></b>
+<a href="#"><b style="background-color:#dd4b39;"><i class="fa fa-google" style="background-color:#dd4b39;"></i></b></a>
+<a href="#"><b style="background-color:#bb0000;"><i class="fa fa-envelope" style="background-color:#bb0000;"></i></b></a>
+<a href="#"><b style="background-color:#ff5700;"><i class="fa fa-reddit" style="background-color:#ff5700;"></i></b></a>
+</center>
 </div>
 <div class="headimg" style="background-image:url(IMG/Write-Something.png)"></div>
 <legend>Unlock the secrets of the universe, with this simple guide.</legend>
